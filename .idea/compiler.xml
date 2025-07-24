@@ -2,13 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+<<<<<<< HEAD
       <profile default="true" name="Default" enabled="true" />
+=======
+>>>>>>> 0d52acbb2a2eb5a79f7c853d5534e99087ab729e
       <profile name="Annotation profile for ElectronicStore" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
+<<<<<<< HEAD
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+=======
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+>>>>>>> 0d52acbb2a2eb5a79f7c853d5534e99087ab729e
         </processorPath>
         <module name="ElectronicStore" />
       </profile>
@@ -16,7 +23,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+<<<<<<< HEAD
       <module name="ElectronicStore" options="-parameters --enable-preview" />
+=======
+      <module name="ElectronicStore" options="-parameters" />
+>>>>>>> 0d52acbb2a2eb5a79f7c853d5534e99087ab729e
     </option>
   </component>
 </project>
